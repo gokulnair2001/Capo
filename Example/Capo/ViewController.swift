@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import Capo
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var button: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        CapoTuner.applyGradient(button: button, color1: .systemYellow, color2: .systemPink, cornerRadius: 15)
+        
     }
 
     override func didReceiveMemoryWarning() {

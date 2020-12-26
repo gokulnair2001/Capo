@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		06DB44911E41474F5BA274A3D74667F0 /* Pods-Capo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C490CEC0C8C41F33F13689283B6A11B9 /* Pods-Capo_Example-dummy.m */; };
 		320E1C95AAC19B1354198B9CFD3DCEC4 /* Capo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20326EF606E5DE6D9AE9A16C97FD1EDB /* Capo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5580D15325972BFA00973790 /* ButtonTuner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5580D15225972BFA00973790 /* ButtonTuner.swift */; };
+		5580D15B25972DE400973790 /* ButtonTuner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5580D15A25972DE400973790 /* ButtonTuner.swift */; };
 		8E7ACEA99A803CF0CE73DE255BF3D0C2 /* Capo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C2480E882E9E9F0D5741A8539DD4D6 /* Capo-dummy.m */; };
 		930BA5B32103BA391CC64A78D78263F0 /* Pods-Capo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07E0D8065749DE3B876DEA4B48010D38 /* Pods-Capo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		960F85415B7F3F577CE05E336C9F7D74 /* Pods-Capo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 862CDA66531D7D08FA490CC88AC8A0A7 /* Pods-Capo_Tests-dummy.m */; };
@@ -47,7 +47,7 @@
 		3F74D3ADED9D36037CEF77461726C3D5 /* Pods-Capo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Capo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		44E0C5AEA910B0A2073CAF630CECA1B6 /* Pods-Capo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Capo_Example.release.xcconfig"; sourceTree = "<group>"; };
 		469DF464A0E4AACF691C8C3331D71C23 /* Pods-Capo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Capo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5580D15225972BFA00973790 /* ButtonTuner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTuner.swift; sourceTree = "<group>"; };
+		5580D15A25972DE400973790 /* ButtonTuner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonTuner.swift; sourceTree = "<group>"; };
 		683325408410664A74573B70BB8C6D87 /* Pods-Capo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Capo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		71AFA6FB01628E37BE2D61A9E0DD75DD /* Pods-Capo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Capo_Example-frameworks.sh"; sourceTree = "<group>"; };
 		75CF1BB86AAB5407C23CEC81E796CB44 /* Pods-Capo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Capo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -153,7 +153,7 @@
 		5580D15125972BD900973790 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				5580D15225972BFA00973790 /* ButtonTuner.swift */,
+				5580D15A25972DE400973790 /* ButtonTuner.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -380,7 +380,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5580D15325972BFA00973790 /* ButtonTuner.swift in Sources */,
+				5580D15B25972DE400973790 /* ButtonTuner.swift in Sources */,
 				8E7ACEA99A803CF0CE73DE255BF3D0C2 /* Capo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,7 +436,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Capo/Capo-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Capo/Capo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Capo/Capo.modulemap";
 				PRODUCT_MODULE_NAME = Capo;
@@ -445,7 +445,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -468,7 +468,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Capo_Example/Pods-Capo_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Capo_Example/Pods-Capo_Example.modulemap";
@@ -502,7 +502,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Capo/Capo-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Capo/Capo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Capo/Capo.modulemap";
 				PRODUCT_MODULE_NAME = Capo;
@@ -510,7 +510,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -534,7 +534,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Capo_Tests/Pods-Capo_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Capo_Tests/Pods-Capo_Tests.modulemap";
@@ -568,7 +568,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Capo_Tests/Pods-Capo_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Capo_Tests/Pods-Capo_Tests.modulemap";
@@ -633,7 +633,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -695,7 +695,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -724,7 +724,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Capo_Example/Pods-Capo_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Capo_Example/Pods-Capo_Example.modulemap";
