@@ -61,8 +61,3 @@ Capo is available under the MIT license. See the [LICENSE](https://github.com/go
 * If you face issues in any step open a new issue.
 * To fix issues: Fork this repository, make your changes and make a Pull Request. 
 
-# Like the Project ?
-If you like this project please consider buying me a coffee 🥰
-
-[<img width="200" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" ></a>](https://www.buymeacoffee.com/gokulnair)
-
