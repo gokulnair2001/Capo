@@ -1,0 +1,6 @@
+framework module Capo {
+  umbrella header "Capo-umbrella.h"
+
+  export *
+  module * { export * }
+}

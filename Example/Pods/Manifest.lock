@@ -1,0 +1,16 @@
+PODS:
+  - Capo (0.1.0)
+
+DEPENDENCIES:
+  - Capo (from `../`)
+
+EXTERNAL SOURCES:
+  Capo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Capo: 11f43d3f34476ea4eaec6a6e2cb5bb827bf18e7d
+
+PODFILE CHECKSUM: dc16eaa58616f6df63a19ad6edb9de239fe3c1a9
+
+COCOAPODS: 1.9.3
