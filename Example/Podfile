@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'Capo_Example' do
+  pod 'Capo', :path => '../'
+
+  target 'Capo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
