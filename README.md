@@ -1,3 +1,6 @@
+<img src = "https://user-images.githubusercontent.com/56252259/103150031-c6722280-4795-11eb-83f1-7edfc7ccdcb3.png" width = 1000, height = 500>
+
+
 # Capo
 
 [![CI Status](https://img.shields.io/travis/gokulnair2001/Capo.svg?style=flat)](https://travis-ci.org/gokulnair2001/Capo)
@@ -18,6 +21,30 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'Capo'
+```
+# How To Use 📁 ?
+
+### Apply CornerRadius, BorderWidth and BorderColor
+
+```swift
+CapoTuner.tune(button: UIButton ,cornerRadius: CGFloat, borderWidth: CGFloat, borderColor: UIColor )
+```
+
+### Apply gradient background
+
+```swift
+CapoTuner.applyGradient(button:UIButton, color1: UIColor, color2: UIColor, cornerRadius: CGFloat) 
+```
+### Apply Pulse animation
+
+```swift
+pulsate(button: UIButton, duration: CFTimeInterval, from: CFTimeInterval, to: CFTimeInterval, autoReverse: Bool = false, repeatCount: Float = 0,velocity: CGFloat, damping: CGFloat)
+```
+
+### Aply Flash aimation
+
+```swift
+flash(button: UIButton, duration: CFTimeInterval, from: CFTimeInterval, to: CFTimeInterval, autoReverse: Bool = false, repeatCount: Float = 0)
 ```
 
 ## Author
