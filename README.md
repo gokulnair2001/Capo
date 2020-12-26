@@ -49,8 +49,8 @@ flash(button: UIButton, duration: CFTimeInterval, from: CFTimeInterval, to: CFTi
 
 ## Author
 
-gokulnair2001, “gokulnair.2001@gmail.com”
+[Gokul R Nair](“gokulnair.2001@gmail.com”)
 
 ## License
 
-Capo is available under the MIT license. See the LICENSE file for more info.
+Capo is available under the MIT license. See the [LICENSE](https://github.com/gokulnair2001/Capo/blob/master/LICENSE) for more info.
