@@ -66,5 +66,19 @@ public class CapoTuner{
         button.layer.add(flash, forKey: nil)
     }
     
+    // PopColors animation
+    
+    public static func popColors(button: UIButton,fromColor: UIColor, toColor: UIColor, cornerRadius:CGFloat,duration: CFTimeInterval, autoReverse: Bool = false, repeatCount: Float = 0) {
+        
+        let popColor = CABasicAnimation(keyPath: "backgroundColor")
+        popColor.fromValue = fromColor.cgColor
+        popColor.toValue = toColor.cgColor
+        popColor.duration = duration
+        popColor.repeatCount = repeatCount
+        popColor.autoreverses = autoReverse
+        button.layer.add(popColor, forKey: nil)
+        button.layer.cornerRadius = cornerRadius
+    }
+    
 }
 
