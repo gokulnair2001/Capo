@@ -8,6 +8,12 @@
 ![Badge](https://img.shields.io/badge/License-MIT-yellow) 
 [![Platform](https://img.shields.io/cocoapods/p/Capo.svg?style=flat)](https://cocoapods.org/pods/Capo)
 
+## About 📒
+So Capo is a custom library used to apply various animations and effect to a button.Capo reduces your 10-12 lines od code to 1 line making it more convenient to read and execute. Capo comes with various animations like pulse, flash and effects like applying gradient background and etc. So capo doesnt require any additional dependency's , its a small and optimized library to make your work more convenient , easy, optimised and easy to understand.
+
+## Idea ❤️
+So while coding I found whenever it was about applying animations and effects we were supposed to write same lines of code multiple time, this made my coding frequency slow. So I thought to make a library which would make my work easy eventually making others work too. So this is the idea behind creation of Capo.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -38,13 +44,13 @@ CapoTuner.applyGradient(button:UIButton, color1: UIColor, color2: UIColor, corne
 ### Apply Pulse animation
 
 ```swift
-CapoTuner.pulsate(button: UIButton, duration: CFTimeInterval, from: CFTimeInterval, to: CFTimeInterval, autoReverse: Bool = false, repeatCount: Float = 0,velocity: CGFloat, damping: CGFloat)
+CapoTuner.pulsate(button: UIButton, duration: CFTimeInterval, from: CFTimeInterval, to: CFTimeInterval, autoReverse: Bool, repeatCount: Float,velocity: CGFloat, damping: CGFloat)
 ```
 
 ### Aply Flash aimation
 
 ```swift
-CapoTuner.flash(button: UIButton, duration: CFTimeInterval, from: CFTimeInterval, to: CFTimeInterval, autoReverse: Bool = false, repeatCount: Float = 0)
+CapoTuner.flash(button: UIButton, duration: CFTimeInterval, from: CFTimeInterval, to: CFTimeInterval, autoReverse: Bool, repeatCount: Float)
 ```
 
 ## Author
@@ -55,9 +61,11 @@ CapoTuner.flash(button: UIButton, duration: CFTimeInterval, from: CFTimeInterval
 
 Capo is available under the MIT license. See the [LICENSE](https://github.com/gokulnair2001/Capo/blob/master/LICENSE) for more info.
 
-# How to Contribute 🖋 
+## How to Contribute 🖋 
 
 * Install the pod - Steps mentioned above
 * If you face issues in any step open a new issue.
 * To fix issues: Fork this repository, make your changes and make a Pull Request. 
 
+## Note ⚠️
+Right now capo comes with limited features, it will be updated with future releases too. So stay tuned to know more about Capo.
