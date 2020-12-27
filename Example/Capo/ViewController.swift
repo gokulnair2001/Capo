@@ -24,5 +24,21 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+    @IBAction func buttonAction(_ sender: Any) {
+        // Remove the comment mark below to check every feature
+       
+       // CapoTuner.pulsate(button: button, duration: 0.3, from: 1, to: 0.1, velocity: 0.5, damping: 1)
+        
+        
+      //  CapoTuner.pulsate(button: button, duration: 0.3, from: 1, to: 0.1, autoReverse: true, repeatCount: 1, velocity: 0.5, damping: 1.0)
+        
+        
+      //  CapoTuner.flash(button: button, duration: 0.3, from: 1, to: 0.1, autoReverse: true, repeatCount: 2)
+        
+        
+       // CapoTuner.flash(button: button, duration: 0.3, from: 1, to: 0.1)
+    }
+    
 }
 
