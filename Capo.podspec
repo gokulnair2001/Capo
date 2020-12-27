@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Capo'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = 'Capo is a custom library used to add animation and effects to button with just one line of code.'
 
 # This description is used to generate tags and improve search results.
