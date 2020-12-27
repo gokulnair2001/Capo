@@ -41,18 +41,22 @@ CapoTuner.tune(button: UIButton ,cornerRadius: CGFloat, borderWidth: CGFloat, bo
 ```swift
 CapoTuner.applyGradient(button:UIButton, color1: UIColor, color2: UIColor, cornerRadius: CGFloat) 
 ```
-### Apply Pulse animation
+### Apply Pulse Animation
 
 ```swift
-CapoTuner.pulsate(button: UIButton, duration: CFTimeInterval, from: CFTimeInterval, to: CFTimeInterval, autoReverse: Bool, repeatCount: Float,velocity: CGFloat, damping: CGFloat)
+CapoTuner.pulsate(button: UIButton, duration: CFTimeInterval, from: CFTimeInterval, to: CFTimeInterval, autoReverse: Bool = false, repeatCount: Float = 0,velocity: CGFloat, damping: CGFloat)
 ```
 
-### Aply Flash aimation
+### Apply Flash Aimation
 
 ```swift
-CapoTuner.flash(button: UIButton, duration: CFTimeInterval, from: CFTimeInterval, to: CFTimeInterval, autoReverse: Bool, repeatCount: Float)
+CapoTuner.flash(button: UIButton, duration: CFTimeInterval, from: CFTimeInterval, to: CFTimeInterval, autoReverse: Bool = false, repeatCount: Float = 0)
 ```
+### Apply PopColor Animation
 
+```swift
+CapoTuner.popColors(button: UIButton,fromColor: UIColor, toColor: UIColor, cornerRadius:CGFloat = 0,duration: CFTimeInterval, autoReverse: Bool = false, repeatCount: Float = 0)
+```
 ## Author
 
 [Gokul R Nair](“gokulnair.2001@gmail.com”)
