@@ -68,4 +68,4 @@ Capo is available under the MIT license. See the [LICENSE](https://github.com/go
 * To fix issues: Fork this repository, make your changes and make a Pull Request. 
 
 ## Note ⚠️
-Right now capo comes with limited features, it will be updated with future releases too. So stay tuned to know more about Capo.
+Right now capo comes with limited features, it will be updated with future releases, So stay tuned to know more about Capo.
