@@ -36,7 +36,7 @@ pod 'Capo'
 CapoTuner.tune(button: UIButton ,cornerRadius: CGFloat, borderWidth: CGFloat, borderColor: UIColor )
 ```
 
-### Apply gradient background
+### Apply Gradient Background
 
 ```swift
 CapoTuner.applyGradient(button:UIButton, color1: UIColor, color2: UIColor, cornerRadius: CGFloat) 
