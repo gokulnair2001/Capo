@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-       // CapoTuner.applyGradient(button: button, color1: .systemYellow, color2: .systemPink, cornerRadius: 15)
+       // CapoTuner.applyGradient(button: button, color1: .systemYellow, color2: .systemPink, cornerRadius: 24)
         
     }
 
@@ -40,6 +40,8 @@ class ViewController: UIViewController {
        // CapoTuner.flash(button: button, duration: 0.3, from: 1, to: 0.1)
         
        // CapoTuner.popColors(button: button, fromColor: .systemOrange, toColor: .systemPink, cornerRadius: 24, duration: 0.3, autoReverse: true, repeatCount: 3)
+        
+      // CapoTuner.applyShadow(button: button, color: .systemBlue, width: 0, height: 2, Radius: 4, opacity: 0.5)
     }
     
 }
