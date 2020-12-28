@@ -35,6 +35,18 @@ public class CapoTuner{
         gradientLayer.frame = button.bounds
     }
     
+    
+    // Shadow Effect
+    
+    public static func applyShadow(button: UIButton, color: UIColor, width: Double, height: Double, Radius: CGFloat, opacity: Float){
+        button.layer.shadowColor = color.cgColor
+        button.layer.shadowOffset = CGSize(width: width, height: height)
+        button.layer.masksToBounds = false
+        button.layer.shadowRadius = Radius
+        button.layer.shadowOpacity = opacity
+        
+    }
+    
     //MARK:- Button Animation Section
     
     //Pulse animation
