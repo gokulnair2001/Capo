@@ -20,7 +20,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements 
 
-Device running on iOS/iPadOS 12.0+ versions.
+Device running on iOS/iPadOS 12.0+ versions 📱.
 
 ## Installation
 
