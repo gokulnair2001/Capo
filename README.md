@@ -71,6 +71,8 @@ CapoTuner.popColors(button: UIButton,fromColor: UIColor, toColor: UIColor, corne
 
 <img src = "https://user-images.githubusercontent.com/56252259/103167532-ce8f9800-4851-11eb-99a0-46e383dac184.gif" width = 200, height = 250> <img src = "https://user-images.githubusercontent.com/56252259/103167537-d3ece280-4851-11eb-8e7c-c860a9b83ec5.gif" width = 200, height = 250> <img src = "https://user-images.githubusercontent.com/56252259/103167539-d5b6a600-4851-11eb-897b-422982da75a9.gif" width = 200, height = 250>
 
+* Sample animations given above are made with arbitrary values, you can change it according to your need 🎛.
+
 ## Author 🖊
 [Gokul R Nair](“gokulnair.2001@gmail.com”)
 
@@ -89,3 +91,12 @@ Capo is available under the MIT license. See the [LICENSE](https://github.com/go
 
 ## Updates ⚠️
 Right now capo comes with limited features, it will be updated with future releases, So stay tuned to know more about Capo.
+
+# Like the Project ?
+If you like using any of my projects or like what I'm doing, please consider backing me with appreciating my work [Message me](https://www.linkedin.com/in/gokul-r-nair/)🥰
+
+[<img width="200" alt="BMC logo+wordmark - Black" src="https://user-images.githubusercontent.com/56252259/98195548-0c55fb80-1f48-11eb-8293-02131a0d908c.png">](https://www.buymeacoffee.com/gokulnair)
+
+OR
+
+**Drop a star ⭐ if you find this project interesting!**
