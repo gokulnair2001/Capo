@@ -95,7 +95,7 @@ Right now capo comes with limited features, it will be updated with future relea
 # Like the Project ?
 If you like using any of my projects or like what I'm doing, please consider backing me with appreciating my work [Message me](https://www.linkedin.com/in/gokul-r-nair/)🥰
 
-[<img width="200" alt="BMC logo+wordmark - Black" src="https://user-images.githubusercontent.com/56252259/98195548-0c55fb80-1f48-11eb-8293-02131a0d908c.png">](https://www.buymeacoffee.com/gokulnair)
+[<img width="200" alt="BMC logo+wordmark - Black" src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png">](https://www.buymeacoffee.com/gokulnair)
 
 OR
 
