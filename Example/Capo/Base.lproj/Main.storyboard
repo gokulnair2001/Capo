@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
@@ -17,29 +17,42 @@
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9wT-3O-hm3">
-                                <rect key="frame" x="129" y="283" width="117" height="101"/>
+                                <rect key="frame" x="113" y="353.5" width="188" height="189"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="101" id="VX0-4P-UmH"/>
-                                    <constraint firstAttribute="width" constant="117" id="wv2-5s-9M8"/>
+                                    <constraint firstAttribute="height" constant="189" id="603-rt-ylm"/>
+                                    <constraint firstAttribute="width" constant="188" id="GF9-ug-cvH"/>
                                 </constraints>
-                                <state key="normal" title="Button">
+                                <state key="normal">
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
                                 <connections>
                                     <action selector="buttonAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="GKA-8g-Umf"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shadow + Gradient " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AKB-tj-yGV">
+                                <rect key="frame" x="99" y="604.5" width="216" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="CZf-UH-JmA"/>
+                                    <constraint firstAttribute="width" constant="216" id="E9O-Xu-vga"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="9wT-3O-hm3" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="aJW-VQ-ORx"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="9wT-3O-hm3" secondAttribute="trailing" constant="113" id="rDl-yw-EAq"/>
-                            <constraint firstItem="9wT-3O-hm3" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="xJF-r4-Mti"/>
-                            <constraint firstItem="9wT-3O-hm3" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="113" id="zfn-Hl-9zl"/>
+                            <constraint firstItem="9wT-3O-hm3" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="BW9-xF-AOd"/>
+                            <constraint firstItem="AKB-tj-yGV" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="79" id="Qgu-Lp-InV"/>
+                            <constraint firstItem="9wT-3O-hm3" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="93" id="f1m-5X-tok"/>
+                            <constraint firstItem="AKB-tj-yGV" firstAttribute="top" secondItem="9wT-3O-hm3" secondAttribute="bottom" constant="62" id="h7T-eZ-cMy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="AKB-tj-yGV" secondAttribute="trailing" constant="79" id="lsz-DV-3PO"/>
+                            <constraint firstItem="9wT-3O-hm3" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="sBH-xC-az3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9wT-3O-hm3" secondAttribute="trailing" constant="93" id="z97-eY-8sz"/>
                         </constraints>
                     </view>
                     <connections>
@@ -48,12 +61,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
+            <point key="canvasLocation" x="136.23188405797103" y="132.58928571428572"/>
         </scene>
     </scenes>
     <resources>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>
