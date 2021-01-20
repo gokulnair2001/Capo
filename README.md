@@ -92,7 +92,7 @@ Capo is available under the MIT license. See the [LICENSE](https://github.com/go
 ## Updates ⚠️
 Right now capo comes with limited features, it will be updated with future releases, So stay tuned to know more about Capo.
 
-## Cocoapods link
+## Cocoapods link 🖥
 [CocoaPod](https://cocoapods.org/pods/Capo)
 
 # Like the Project ?
