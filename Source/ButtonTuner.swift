@@ -9,9 +9,7 @@ import Foundation
 import UIKit
 
 public class CapoTuner{
-    
     //MARK:- Button view style
-    
     /// Tune is a basic formatting style for button.
     /// - Parameters:
     ///   - button: Button on which effect is to be applied
@@ -23,9 +21,7 @@ public class CapoTuner{
         button.layer.borderWidth = borderWidth
         button.layer.borderColor = borderColor.cgColor
     }
-    
     //MARK:- Gradient colour application
-    
     /// Gradient is an intermediate style to apply Gradient background for buttons.
     /// - Parameters:
     ///   - button: Button on which effect is to be applied
@@ -46,8 +42,6 @@ public class CapoTuner{
         }()
         gradientLayer.frame = button.bounds
     }
-    
-    
     // Shadow Effect
     
     /// Shadow is a basic style of applying shadow to a button.
@@ -64,13 +58,10 @@ public class CapoTuner{
         button.layer.masksToBounds = false
         button.layer.shadowRadius = Radius
         button.layer.shadowOpacity = opacity
-        
     }
     
     //MARK:- Button Animation Section
-    
     //Pulse animation
-    
     /// Pulse is an advanced button style to apply pulse animation to a button.
     /// - Parameters:
     ///   - button: Button on which effect is to be applied
@@ -82,7 +73,6 @@ public class CapoTuner{
     ///   - velocity: The initial velocity of the object attached to the spring.
     ///   - damping: Defines how the spring’s motion should be damped due to the forces of friction.
     public static func pulsate(button: UIButton, duration: CFTimeInterval, from: CFTimeInterval, to: CFTimeInterval, autoReverse: Bool = false, repeatCount: Float = 0,velocity: CGFloat, damping: CGFloat){
-        
         let pulse = CASpringAnimation(keyPath: "transform.scale")
         pulse.duration = duration
         pulse.fromValue = from
@@ -93,8 +83,6 @@ public class CapoTuner{
         pulse.damping = damping
         button.layer.add(pulse, forKey: nil)
     }
-    
-    
     //Flash animation
     
     /// Flash is an advanced button style to apply flash animation to a button.
@@ -115,7 +103,6 @@ public class CapoTuner{
         flash.repeatCount = repeatCount
         button.layer.add(flash, forKey: nil)
     }
-    
     // PopColors animation
     
     /// PopColor is an advanced styling feature for button, Used to aplpy POP colors on a button.
@@ -128,7 +115,6 @@ public class CapoTuner{
     ///   - autoReverse: Determines if the receiver plays in the reverse upon completion
     ///   - repeatCount: Determines the number of times the animation will repeat.
     public static func popColors(button: UIButton,fromColor: UIColor, toColor: UIColor, cornerRadius:CGFloat = 0,duration: CFTimeInterval, autoReverse: Bool = false, repeatCount: Float = 0) {
-        
         let popColor = CABasicAnimation(keyPath: "backgroundColor")
         popColor.fromValue = fromColor.cgColor
         popColor.toValue = toColor.cgColor
