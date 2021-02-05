@@ -77,6 +77,7 @@ CapoTuner.popColors(button: UIButton,fromColor: UIColor, toColor: UIColor, corne
 <img src = "https://user-images.githubusercontent.com/56252259/103167532-ce8f9800-4851-11eb-99a0-46e383dac184.gif" width = 200, height = 250>  | <img src = "https://user-images.githubusercontent.com/56252259/103167537-d3ece280-4851-11eb-8e7c-c860a9b83ec5.gif" width = 200, height = 250> | <img src = "https://user-images.githubusercontent.com/56252259/103167539-d5b6a600-4851-11eb-897b-422982da75a9.gif" width = 200, height = 250> |
 
 * Sample animations given above are made with arbitrary values, you can change it according to your need 🎛.
+* Above given animations are applied on UIButtons!.
 
 ## Author 🖊
 [Gokul R Nair](“gokulnair.2001@gmail.com”)
