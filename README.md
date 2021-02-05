@@ -67,9 +67,14 @@ CapoTuner.popColors(button: UIButton,fromColor: UIColor, toColor: UIColor, corne
 ```
 # Snapshots 🌉
 
-<img width="200" alt="Screenshot 2020-12-27 at 2 22 23 PM" src="https://user-images.githubusercontent.com/56252259/103167406-fe8a6b80-4850-11eb-9f0a-5778625e3707.png">   <img width="200" alt="Screenshot 2020-12-27 at 2 27 41 PM" src="https://user-images.githubusercontent.com/56252259/103167409-021df280-4851-11eb-95d4-a6c3218726b1.png">  <img width="200" alt="Screenshot 2020-12-27 at 2 27 41 PM" src="https://user-images.githubusercontent.com/56252259/103194838-d1989000-4906-11eb-8120-c6017463e66e.png"> 
+ Effect 1 | Effect 2| Effect 3|
+--- | --- | ---
+<img width="200" alt="Screenshot 2020-12-27 at 2 22 23 PM" src="https://user-images.githubusercontent.com/56252259/103167406-fe8a6b80-4850-11eb-9f0a-5778625e3707.png"> | <img width="200" alt="Screenshot 2020-12-27 at 2 27 41 PM" src="https://user-images.githubusercontent.com/56252259/103167409-021df280-4851-11eb-95d4-a6c3218726b1.png"> | <img width="200" alt="Screenshot 2020-12-27 at 2 27 41 PM" src="https://user-images.githubusercontent.com/56252259/103194838-d1989000-4906-11eb-8120-c6017463e66e.png">  |
 
-<img src = "https://user-images.githubusercontent.com/56252259/103167532-ce8f9800-4851-11eb-99a0-46e383dac184.gif" width = 200, height = 250> <img src = "https://user-images.githubusercontent.com/56252259/103167537-d3ece280-4851-11eb-8e7c-c860a9b83ec5.gif" width = 200, height = 250> <img src = "https://user-images.githubusercontent.com/56252259/103167539-d5b6a600-4851-11eb-897b-422982da75a9.gif" width = 200, height = 250>
+
+ Effect 4| Effect 5| Effect 6|
+ --- | --- | ---
+<img src = "https://user-images.githubusercontent.com/56252259/103167532-ce8f9800-4851-11eb-99a0-46e383dac184.gif" width = 200, height = 250>  | <img src = "https://user-images.githubusercontent.com/56252259/103167537-d3ece280-4851-11eb-8e7c-c860a9b83ec5.gif" width = 200, height = 250> | <img src = "https://user-images.githubusercontent.com/56252259/103167539-d5b6a600-4851-11eb-897b-422982da75a9.gif" width = 200, height = 250> |
 
 * Sample animations given above are made with arbitrary values, you can change it according to your need 🎛.
 
