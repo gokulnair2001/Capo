@@ -79,9 +79,6 @@ CapoTuner.popColors(button: UIButton,fromColor: UIColor, toColor: UIColor, corne
 * Sample animations given above are made with arbitrary values, you can change it according to your need 🎛.
 * Above given animations are applied on UIButtons!.
 
-## Author 🖊
-[Gokul R Nair](“gokulnair.2001@gmail.com”)
-
 ## License
 
 Capo is available under the MIT license. See the [LICENSE](https://github.com/gokulnair2001/Capo/blob/master/LICENSE) for more info.
