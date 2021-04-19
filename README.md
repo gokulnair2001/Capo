@@ -5,6 +5,8 @@
 
 [![CI Status](https://img.shields.io/travis/gokulnair2001/Capo.svg?style=flat)](https://travis-ci.org/gokulnair2001/Capo)
 [![Version](https://img.shields.io/cocoapods/v/Capo.svg?style=flat)](https://cocoapods.org/pods/Capo)
+![commits](https://img.shields.io/github/commits-since/CapoFrame/Capo/1.2.3/master)
+![contributors](https://img.shields.io/github/contributors/CapoFrame/Capo)
 ![Badge](https://img.shields.io/badge/License-MIT-yellow) 
 [![Platform](https://img.shields.io/cocoapods/p/Capo.svg?style=flat)](https://cocoapods.org/pods/Capo)
 
