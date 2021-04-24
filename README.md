@@ -1,6 +1,7 @@
 
 <p align="center">
-<img src = "https://user-images.githubusercontent.com/56252259/103150031-c6722280-4795-11eb-83f1-7edfc7ccdcb3.png" width = 800, height = 450>
+<!--<img src = "https://user-images.githubusercontent.com/56252259/103150031-c6722280-4795-11eb-83f1-7edfc7ccdcb3.png" width = 800, height = 450>-->
+ <img width="800" alt="Screenshot 2020-12-27 at 2 22 23 PM" src="https://user-images.githubusercontent.com/56252259/103150031-c6722280-4795-11eb-83f1-7edfc7ccdcb3.png"> 
 </p>
 
 # Capo
@@ -80,8 +81,6 @@ CapoTuner.popColors(button: UIButton,fromColor: UIColor, toColor: UIColor, corne
  --- | --- | ---
  <img width="200" alt="Screenshot 2020-12-27 at 2 22 23 PM" src="https://user-images.githubusercontent.com/56252259/103167532-ce8f9800-4851-11eb-99a0-46e383dac184.gif"> | <img width="200" alt="Screenshot 2020-12-27 at 2 27 41 PM" src="https://user-images.githubusercontent.com/56252259/103167537-d3ece280-4851-11eb-8e7c-c860a9b83ec5.gif"> | <img width="200" alt="Screenshot 2020-12-27 at 2 27 41 PM" src="https://user-images.githubusercontent.com/56252259/103167539-d5b6a600-4851-11eb-897b-422982da75a9.gif">  |
  
-<!--<img src = "" width = 200, height = 250>  | <img src = "" width = 200, height = 250> | <img src = "" width = 200, height = 250> |-->
-
 * Sample animations given above are made with arbitrary values, you can change it according to your need 🎛.
 * Above given animations are applied on UIButtons!.
 
