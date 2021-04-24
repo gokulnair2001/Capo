@@ -11,6 +11,9 @@
 ![commits](https://img.shields.io/github/commits-since/CapoFrame/Capo/1.2.3/master)
 ![contributors](https://img.shields.io/github/contributors/CapoFrame/Capo)
 ![Badge](https://img.shields.io/badge/License-MIT-yellow) 
+![Badge](https://img.shields.io/badge/Xcode-12.0-green)
+![badge](https://img.shields.io/badge/Swift-5.1-red)
+![Badge](https://img.shields.io/badge/RepoSize-6kb-brown)
 [![Platform](https://img.shields.io/cocoapods/p/Capo.svg?style=flat)](https://cocoapods.org/pods/Capo)
 
 ## About 📒
