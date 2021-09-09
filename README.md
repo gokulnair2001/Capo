@@ -19,7 +19,7 @@
 So Capo is a custom Framework used to apply various animations and effect to a button. Capo reduces your 10-12 lines of code to 1 line making it more convenient to read and execute. Capo comes with various animations like pulse, flash and effects like applying gradient background and etc. So capo doesn't require any additional dependency's ,its a small and optimized library to make your work more convenient, easy, optimised and easy to understand too.
 
 ## Idea ❤️
-So while coding I found whenever it was about applying animations and effects we were supposed to write same lines of code multiple time, this made my coding frequency slow and even making the code appearance bad. So I thought to make a library which would make my work easy eventually making others work too. So this is the idea behind creation of Capo.
+So while coding I found whenever it was about applying animations and effects we were supposed to write same lines of code multiple time, this made my coding frequency slow and even making the code appearance bad. So I thought to make a library which would make my work easy eventually making others work too. This was the idea behind developing Capo.
 
 ## Example
 
